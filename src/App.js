@@ -10,10 +10,10 @@ import sidestairs from './components/assets/sidestairs.png';
 
 function App() {
   return (
-    <div className='App p-4 m-auto w-[100vw]'>
+    <div className='App p-4 m-auto w-[90vw]'>
       <img src={bg} alt="background" className='fixed top-0' />
       <Navbar />
-      <div className="relative h-[100vh] md:h-[78vh]">
+      <div className="relative h-[90vh] md:h-[78vh]">
         <div className='flex justify-center items-center text-white font-[900]'>
           <span className='absolute top-44 md:top-16 text-[8rem] md:text-[11.5rem]'>CASH</span>
           <img className='absolute pl-5 w-[15rem] md:w-[22rem] top-52 md:top-20' src={mobile} alt="mobile" />
